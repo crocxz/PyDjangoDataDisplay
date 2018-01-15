@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type=text/javascript>
+        
+        function onLoad()
+        {
+            var colors = new Array('#FFFFFF', '#3FFF33', '#FFFF33', '#FFB533', '#FF4933')
+        }
+        
+        </script>
+    </head>
+<body>
+{% if latest_entry_list %}
+<table>
+    <tr>
+        <th>Date</th>
+        <th>Filename</th>
+        <th>Action</th>
+        <th>Rating</th>
+    </tr>
+    {% for entry in latest_entry_list %}
+    <tr> 
+        <td>{{ entry.date }}</td>
+        <td>{{ entry.filename }}</td>
+        <td>{{ entry.action }}</td>
+        <td>{{ entry.rating }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endif %}
+</body>
+</html>

@@ -1,0 +1,56 @@
+[
+    {
+        "date": "11/1/2017 13:10",
+        "filename": "virus.exe",
+        "action": "files-deleted",
+        "rating": "high-risk"
+    },
+    {
+        "date": "11/1/2017 13:12",
+        "filename": "helper.exe",
+        "action": "files-added",
+        "rating": "low-risk"
+    },
+    {
+        "date": "11/1/2017 13:15",
+        "filename": "menu.doc",
+        "action": "",
+        "rating": "nope"
+    },
+    {
+        "date": "11/1/2017 13:10",
+        "filename": "virus.exe",
+        "action": "files-deleted",
+        "rating": "high-risk"
+    },
+    {
+        "date": "11/1/2017 13:12",
+        "filename": "helper.exe",
+        "action": "files-added",
+        "rating": "low-risk"
+    },
+    {
+        "date": "11/1/2017 13:15",
+        "filename": "menu.doc",
+        "action": "",
+        "rating": "clean"
+    },
+    {
+        "date": "11/1/2017 13:10",
+        "filename": "virus.exe",
+        "action": "files-deleted",
+        "rating": "high-risk"
+    },
+    {
+        "date": "11/1/2017 13:12",
+        "filename": "helper.exe",
+        "action": "files-added",
+        "rating": "low-risk"
+    },
+    {
+        "date": "11/1/2017 13:15",
+        "filename": "menu.doc",
+        "action": "",
+        "rating": "clean"
+    }
+]

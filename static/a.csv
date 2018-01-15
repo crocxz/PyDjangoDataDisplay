@@ -1,0 +1,4 @@
+﻿date time,filename,action,rating
+11/1/2017 13:10,virus.exe,files-deleted,high-risk
+11/1/2017 13:12,helper.exe,files-added,low-risk
+11/1/2017 13:15,menu.doc,,nope
